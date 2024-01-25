@@ -12,6 +12,22 @@
     background color: blue;
 }
 /* helps align items to center and space evenly between elements */
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+/* font for paragraph 1 */
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6e6c6b;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+/* font for paragraph 2 */
+
 .header{
     width: 352px;
     height: 56px;
@@ -53,17 +69,11 @@
     width: 60%;
 }
 /* button2 img scaled down to fit */
-.p1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-top: 4px;
-    margin-bottom: 0;
+
+.selection{
+    width: 352px;
+    height: 74px;
+    padding-left: 24px;
+    padding-right: 24px;
+
 }
-/* font for paragraph 1 */
-.p2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #6e6c6b;
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-/* font for paragraph 2 */
