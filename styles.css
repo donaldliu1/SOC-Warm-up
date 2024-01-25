@@ -1,13 +1,18 @@
 .mobile{
     width: 400px;
-    height: 861px;
-    border-style: ridge;
 }
 /* helps set desired resolution */
 .flex-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* helps align items to center and space evenly between elements */
+.flex-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 /* helps align items to center and space evenly between elements */
 
@@ -27,11 +32,26 @@
     margin-bottom: 4px;
 }
 /* font for paragraph 2 */
-
 .p3{
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* font for paragraph 3 */
+.p4{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    margin-bottom: 0;
+    color: #6e6c6b;
+}
+/* font for paragraph 4 */
+
+.fixed{
+    position: fixed;
+    background-color: #f0f0f0;
+    z-index: 2;
+}
+/* keep header and subsection visible at all times */ 
 
 .header{
     width: 352px;
@@ -101,3 +121,79 @@
     width: 24px;
 }
 /* resizes icon to suitable size */
+
+.body{
+    width: 400px;
+    border-style: hidden;
+    border-width: thin;
+}
+.option{
+    width: 380px;
+    height: 461px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+}
+.optiontop{
+    display: flex;
+    align-self: center;
+    padding-top: 12px;
+    width: 361px;
+    height: 361px;
+
+}
+.optionimg{
+    border-radius: 14px;
+    width: 361px;
+    height: 361px;
+    object-fit: cover;
+}
+.optionguest{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    z-index: 1;
+    width: 117.33px;
+    height: 25px;
+    border-radius: 1000px;
+    border-width: 0.5px;
+    border-style: solid;
+    background-color:#f0f0f0
+}
+.guesttext{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.optionheart{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 322px;
+    z-index: 1;
+}
+.optionbot{
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.price
+{
+    text-decoration: underline;
+    font-weight: 750;
+    color: black;
+}
+.ratingtext {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 24px;
+    margin-right: ;
+}
