@@ -127,6 +127,7 @@
     border-style: hidden;
     border-width: thin;
 }
+/* spaces body */
 .option{
     width: 380px;
     height: 461px;
@@ -134,6 +135,7 @@
     padding-right: 24px;
     padding-bottom: 40px;
 }
+/* div to contain all elements in option */
 .optiontop{
     display: flex;
     align-self: center;
@@ -142,12 +144,14 @@
     height: 361px;
 
 }
+/* top part of option div */
 .optionimg{
     border-radius: 14px;
     width: 361px;
     height: 361px;
     object-fit: cover;
 }
+/* limits shown image and crops any overflowing image */
 .optionguest{
     position: absolute;
     margin-top: 15px;
@@ -160,6 +164,7 @@
     border-style: solid;
     background-color:#f0f0f0
 }
+/* guest favourite symbol at top left of image */
 .guesttext{
     display: flex;
     align-self: center;
@@ -168,26 +173,29 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+/* font style for guest text */
 .optionheart{
     position: absolute;
     margin-top: 18px;
     margin-left: 322px;
     z-index: 1;
 }
+/* heart symbol to favourite the place */
 .optionbot{
     height: 100px;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
 }
+/* bottom part of option div */
 .price
 {
     text-decoration: underline;
     font-weight: 750;
     color: black;
 }
+/* font style for the price */
 .ratingtext {
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
@@ -197,3 +205,4 @@
     right: 24px;
     margin-right: ;
 }
+/* font style and position of ratings */
