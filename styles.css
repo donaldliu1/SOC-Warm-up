@@ -8,8 +8,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
-    background color: blue;
 }
 /* helps align items to center and space evenly between elements */
 
