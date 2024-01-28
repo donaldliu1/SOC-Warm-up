@@ -334,3 +334,35 @@
     width: 380px;
     height: 75px;
 }
+/* style and sizes for all the support section */
+
+.footericon{
+    width: 428px;
+    height: 64px;
+    border-top: solid;
+    border-color: #b4b1b0;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+.iconselection{
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 81.594px;
+    height: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iconselection img{
+    max-width: 24px;
+    max-height: 44px;
+    display: block;
+    width: auto;
+    height: auto;
+}
