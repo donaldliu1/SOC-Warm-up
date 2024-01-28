@@ -269,3 +269,68 @@
     height: 18px;
     font: 14px;
 }
+/* size for footertext */
+
+.support{
+    width: 380px;
+    height: 908.2666px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/* size of support and font style */
+
+.subsupport {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 380px;
+    height: 210.094px;
+    border-bottom: solid;
+    border-color: #b4b1b0;
+    border-width: 1px;
+}
+.subsupport2 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 380px;
+    height: 178.078px;
+    border-bottom: solid;
+    border-color: #b4b1b0;
+    border-width: 1px;
+}
+.subsupport ul{
+    padding: 0px;
+}
+.subsupport h3{
+    margin: 0px;
+}
+.subsupport2 ul{
+    padding: 0px;
+}
+.subsupport2 h3{
+    margin: 0px;
+}
+.supportterms{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 380px;
+    height: 115px;
+    border-bottom: solid;
+    border-color: #b4b1b0;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.supportconfig{
+    width: 380px;
+    height: 18px;
+}
+.support img{
+    height: 50%;
+    width: 4%;
+}
+.supporttnc{
+    padding-top: 12px;
+    width: 380px;
+    height: 75px;
+}
