@@ -1,14 +1,14 @@
-.mobile{
+.mobile {
     width: 400px;
 }
 /* helps set desired resolution */
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 /* helps align items to center and space evenly between elements */
-.flex-container2{
+.flex-container2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 /* helps align items to center and space evenly between elements */
 
-.p1{
+.p1 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -24,7 +24,7 @@
     margin-bottom: 0;
 }
 /* font for paragraph 1 */
-.p2{
+.p2 {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: #6e6c6b;
@@ -32,12 +32,12 @@
     margin-bottom: 4px;
 }
 /* font for paragraph 2 */
-.p3{
+.p3 {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* font for paragraph 3 */
-.p4{
+.p4 {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 4px;
@@ -50,14 +50,14 @@
 }
 /* style for p5 */
 
-.fixed{
+.fixed {
     position: fixed;
     background-color: #f0f0f0;
     z-index: 2;
 }
 /* keep header and subsection visible at all times */ 
 
-.header{
+.header {
     width: 352px;
     height: 56px;
     padding-top: 14px;
@@ -99,7 +99,7 @@
 }
 /* button2 img scaled down to fit */
 
-.selection{
+.selection {
     width: 352px;
     height: 74px;
     padding-top: 10px;
@@ -109,7 +109,7 @@
     border-color: #b4b1b0;
 }
 /* div to help create padding and size */
-.subselection{
+.subselection {
     height: 44px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -120,19 +120,19 @@
     border: 0;
 }
 /* style for button */
-.subselectionimg{
+.subselectionimg {
     height: 24px;
     width: 24px;
 }
 /* resizes icon to suitable size */
 
-.body{
+.body {
     width: 400px;
     border-style: hidden;
     border-width: thin;
 }
 /* spaces body */
-.option{
+.option {
     width: 380px;
     height: 461px;
     padding-left: 24px;
@@ -140,7 +140,7 @@
     padding-bottom: 40px;
 }
 /* div to contain all elements in option */
-.optiontop{
+.optiontop {
     display: flex;
     align-self: center;
     padding-top: 12px;
@@ -149,14 +149,14 @@
 
 }
 /* top part of option div */
-.optionimg{
+.optionimg {
     border-radius: 14px;
     width: 361px;
     height: 361px;
     object-fit: cover;
 }
 /* limits shown image and crops any overflowing image */
-.optionguest{
+.optionguest {
     position: absolute;
     margin-top: 15px;
     margin-left: 15px;
@@ -169,7 +169,7 @@
     background-color:#f0f0f0
 }
 /* guest favourite symbol at top left of image */
-.guesttext{
+.guesttext {
     display: flex;
     align-self: center;
     justify-content: center;
@@ -178,14 +178,14 @@
     font-size: 14px;
 }
 /* font style for guest text */
-.optionheart{
+.optionheart {
     position: absolute;
     margin-top: 18px;
     margin-left: 322px;
     z-index: 1;
 }
 /* heart symbol to favourite the place */
-.optionbot{
+.optionbot {
     height: 100px;
     position: relative;
     display: flex;
@@ -193,8 +193,7 @@
     justify-content: space-evenly;
 }
 /* bottom part of option div */
-.price
-{
+.price {
     text-decoration: underline;
     font-weight: 750;
     color: black;
@@ -247,7 +246,7 @@
     border-width: 1px;
 }
 /* style for the footer section */
-.footerbar{
+.footerbar {
     width: 340px;
     height: 50px;
     border-bottom: solid;
@@ -264,14 +263,14 @@
     justify-content: space-between;
 }
 /* size for the footertextdiv */
-.footertext{
+.footertext {
     width: 186px;
     height: 18px;
     font: 14px;
 }
 /* size for footertext */
 
-.support{
+.support {
     width: 380px;
     height: 908.2666px;
     padding-left: 24px;
@@ -299,19 +298,19 @@
     border-color: #b4b1b0;
     border-width: 1px;
 }
-.subsupport ul{
+.subsupport ul {
     padding: 0px;
 }
-.subsupport h3{
+.subsupport h3 {
     margin: 0px;
 }
-.subsupport2 ul{
+.subsupport2 ul {
     padding: 0px;
 }
-.subsupport2 h3{
+.subsupport2 h3 {
     margin: 0px;
 }
-.supportterms{
+.supportterms {
     padding-top: 24px;
     padding-bottom: 24px;
     width: 380px;
@@ -321,22 +320,22 @@
     border-width: 1px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.supportconfig{
+.supportconfig {
     width: 380px;
     height: 18px;
 }
-.support img{
+.support img {
     height: 50%;
     width: 4%;
 }
-.supporttnc{
+.supporttnc {
     padding-top: 12px;
     width: 380px;
     height: 75px;
 }
 /* style and sizes for all the support section */
 
-.footericon{
+.footericon {
     width: 428px;
     height: 64px;
     border-top: solid;
@@ -348,7 +347,7 @@
     font-size: 10px;
     text-align: center;
 }
-.iconselection{
+.iconselection {
     padding-left: 2px;
     padding-right: 2px;
     width: 81.594px;
@@ -359,7 +358,7 @@
     align-items: center;
     justify-content: center;
 }
-.iconselection img{
+.iconselection img {
     max-width: 24px;
     max-height: 44px;
     display: block;
