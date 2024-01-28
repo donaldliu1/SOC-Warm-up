@@ -206,3 +206,24 @@
     margin-right: ;
 }
 /* font style and position of ratings */
+
+.more {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 380px;
+    height: 86px;
+}
+/* dimension for the more div and flex body to align content */
+.morebutton {
+    width: 120.328px;
+    height: 40px;
+    border-radius: 7px;
+    align-self: center;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+/* design for the more button */
