@@ -1,5 +1,5 @@
 # My first project!
-
+This is my first ever project with School of Code and hopefully a good indication of where I started my journey and where I am today!
 
 
 ## Tasks
